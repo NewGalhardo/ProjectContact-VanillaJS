@@ -1,0 +1,121 @@
+/* html, body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+} */
+
+*
+{
+    background-color: #E5E5E5;
+    font-family: 'Murecho', sans-serif;
+}
+
+.contact-page
+{
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    margin-left: 43%;
+    margin-bottom: 100px;
+}
+
+.contact-container
+{
+    box-sizing: content-box;
+    width: 50%;
+    max-height: 70%;
+    margin-left: 30%;
+    margin-right: 25%;
+    margin-top: 10px;
+    /* border: solid 1px #272E85; */
+}
+
+.contact-header
+{
+    display: grid;
+    grid-template-columns: 20% 50% 7% 1fr;
+    margin-left: 5%;
+    margin-bottom: 8%;
+}
+
+.contact-img
+{
+    width: 100%;
+    margin-top: 20px;
+    border: solid 1px #272E85;
+    border-radius: 50%;
+}
+
+.contact-name
+{    
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 20%;
+}
+
+.dotted-menu
+{
+    box-sizing: content-box;
+    margin-top: 80%;    
+}
+
+.dotted-menu-button
+{
+    color: #272E85;
+    padding-left: 30px;
+}
+
+.dotted-menu-options
+{
+    box-sizing: content-box;
+    margin-top: 5%;
+    margin-left: -15%;
+}
+
+.contact-info
+{
+    width: 70%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: solid 1px #272E85;
+}
+
+.contact-nickname, .contact-email, .contact-notes
+{
+    display: block;
+    margin-left: 35%;
+    font-size: 20px; 
+}
+
+/* .contact-phone
+{
+    display: block;
+    margin-left: 2.5%;
+    font-size: 30px; 
+} */
+
+/* .contact-email
+{
+    display: block;
+    margin-left: 2.5%;
+    font-size: 30px; 
+} */
+
+/* .contact-address
+{
+    display: block;
+    margin-left: 2.5%;
+    font-size: 30px; 
+} */
+/* .contact-notes
+{
+    display: block;
+    margin-left: 2.5%;
+    font-size: 30px; 
+} */
